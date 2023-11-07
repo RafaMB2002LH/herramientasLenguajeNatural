@@ -19,7 +19,7 @@ def elimina_stopwords(texto):
 def muestra():
     print('Programa que elimina las "stopwords" de un texto\n-------------------------------------------------')
     while True:
-        texto = input('Escriba el texto a eliminar (0 para salir):\n')
+        texto = input('Escriba el texto a eliminar (0 para volver al menu):\n')
         if texto == '0':
             print('\n-------------------------------------------------')
             break

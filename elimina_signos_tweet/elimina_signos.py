@@ -10,7 +10,7 @@ def quita_puntuacion(tweet):
 def muestra():
     print('Programa que elimina los signos de un texto (como un tweet)\n-------------------------------------------------')
     while True:
-        tweet = input('Escriba el texto (0 para salir):\n')
+        tweet = input('Escriba el texto (0 para volver al menu):\n')
         if tweet == '0':
             print('\n-------------------------------------------------')
             break
