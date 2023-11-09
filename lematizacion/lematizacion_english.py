@@ -20,4 +20,4 @@ def muestra():
         lemmatized_sentence = lemmatize_sentence(sentence)
 
         print(f'Oración original: {sentence}')
-        print(f'Oración lematizada: {lemmatized_sentence}')
+        print(f'-------------------------------------------------\nOración lematizada:\n--------------------------------------\n{lemmatized_sentence}\n-------------------------------------------------')

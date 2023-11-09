@@ -6,7 +6,7 @@ import lematizacion.lematizacion_english as lematizacion
 if __name__=='__main__':
     #Menu
     while True:
-        print('Elija la herramienta que quiere utilizar:\n- 1 --> Detector de idioma de una web\n- 2 --> Eliminador de signos de un texto\n- 3 --> Eliminador de "stopwords" de un texto\n- 4 --> Lematizacion\n- 6 --> Stemming\n- 7 --> Tokenizacion\n- 8 --> Analisis lexico\n- 9 --> Analisis sintactico\n- 10 -> Analisis semantico\n- 11 -> Texto a voz\n- 12 -> Salir')
+        print('Elija la herramienta que quiere utilizar:\n- 1 --> Detector de idioma de una web\n- 2 --> Eliminador de signos de un texto\n- 3 --> Eliminador de "stopwords" de un texto\n- 4 --> Lematizacion\n- 5 --> Stemming\n- 6 --> Tokenizacion\n- 7 --> Analisis lexico\n- 8 --> Analisis sintactico\n- 9 --> Analisis semantico\n- 10 -> Texto a voz\n- 11 -> Salir')
         opc = input('Escriba la opcion de programa que quiere utilizar: ')
         print('\n-------------------------------------------------')
 
