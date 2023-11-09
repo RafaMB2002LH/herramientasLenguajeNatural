@@ -1,4 +1,3 @@
-import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
@@ -10,8 +9,15 @@ def lemmatize_sentence(sentence):
     lemmatized_sentence = ' '.join(lemmatized_words)
     return lemmatized_sentence
 
-sentence = "I am running in the park"
-lemmatized_sentence = lemmatize_sentence(sentence)
+def muestra():
+    print('Programa que lematiza una oracion EN INGLES\n-------------------------------------------------')
+    while True:
+        
+        sentence = input("Introduzca la oracion que desea lematizar (0 para volver al menu):\n")
+        if sentence == '0':
+            print('\n-------------------------------------------------')
+            break
+        lemmatized_sentence = lemmatize_sentence(sentence)
 
-print(f'Oración original: {sentence}')
-print(f'Oración lematizada: {lemmatized_sentence}')
+        print(f'Oración original: {sentence}')
+        print(f'Oración lematizada: {lemmatized_sentence}')
