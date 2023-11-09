@@ -1,4 +1,3 @@
-import nltk
 from nltk.stem import SnowballStemmer
 from nltk.tokenize import word_tokenize
 
@@ -11,8 +10,15 @@ def lemmatize_sentence(sentence):
     lemmatized_sentence = ' '.join(lemmatized_words)
     return lemmatized_sentence
 
-sentence = "Estoy corriendo en el parque"
-lemmatized_sentence = lemmatize_sentence(sentence)
+def muestra():
+    while True:
 
-print(f'Oración original: {sentence}')
-print(f'Oración lematizada: {lemmatized_sentence}')
+        sentence = input("Introduzca la oracion que desea hacer stemming (0 para volver al menu)\n")
+        if sentence == '0':
+            print('\n-------------------------------------------------')
+            break
+
+        lemmatized_sentence = lemmatize_sentence(sentence)
+
+        print(f'-------------------------------------------------\nOración original: {sentence}')
+        print(f'Oración con stemming: {lemmatized_sentence}\n-------------------------------------------------')

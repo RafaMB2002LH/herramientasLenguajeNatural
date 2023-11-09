@@ -2,6 +2,8 @@ import detecta_idioma_web.detecta_idioma as diw
 import elimina_signos_tweet.elimina_signos as est
 import elimina_stopwords.stopwords as es
 import lematizacion.lematizacion_english as lematizacion
+import stemming.stemming as stemming
+import tokenizacion.tokenizacion as tokenizacion
 
 if __name__=='__main__':
     #Menu
@@ -19,9 +21,9 @@ if __name__=='__main__':
         elif opc == '4':
             lematizacion.muestra()
         elif opc == '5':
-            print("En proceso")
+            stemming.muestra()
         elif opc == '6':
-            print("En proceso")
+            tokenizacion.muestra()
         elif opc == '7':
             print("En proceso")
         elif opc == '8':
@@ -31,8 +33,6 @@ if __name__=='__main__':
         elif opc == '10':
             print("En proceso")
         elif opc == '11':
-            print("En proceso")
-        elif opc == '12':
             break
         else:
             print('Opcion no valida, escriba una opcion de programa valida')
