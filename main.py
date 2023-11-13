@@ -16,7 +16,9 @@ if __name__=='__main__':
         opc = input('Escriba la opcion de programa que quiere utilizar: ')
         print('\n-------------------------------------------------')
 
-        if opc == '1':
+        if opc =='0':
+            break
+        elif opc == '1':
             diw.muestra()
         elif opc == '2':
             est.muestra()
@@ -36,8 +38,6 @@ if __name__=='__main__':
             asem.muestra()
         elif opc == '10':
             tts.muestra()
-        elif opc == '0':
-            break
         else:
             print('Opcion no valida, escriba una opcion de programa valida')
 
