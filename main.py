@@ -4,6 +4,7 @@ import elimina_stopwords.stopwords as es
 import lematizacion.lematizacion_english as lematizacion
 import stemming.stemming as stemming
 import tokenizacion.tokenizacion as tokenizacion
+import analisis_lexico.analisis_lexico as alex
 
 if __name__=='__main__':
     #Menu
@@ -25,7 +26,7 @@ if __name__=='__main__':
         elif opc == '6':
             tokenizacion.muestra()
         elif opc == '7':
-            print("En proceso")
+            alex.muestra()
         elif opc == '8':
             print("En proceso")
         elif opc == '9':
