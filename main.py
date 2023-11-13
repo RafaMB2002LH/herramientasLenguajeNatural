@@ -5,6 +5,7 @@ import lematizacion.lematizacion_english as lematizacion
 import stemming.stemming as stemming
 import tokenizacion.tokenizacion as tokenizacion
 import analisis_lexico.analisis_lexico as alex
+import analisis_sintactico.analisis_sintactico as asin
 
 if __name__=='__main__':
     #Menu
@@ -28,7 +29,7 @@ if __name__=='__main__':
         elif opc == '7':
             alex.muestra()
         elif opc == '8':
-            print("En proceso")
+            asin.muestra()
         elif opc == '9':
             print("En proceso")
         elif opc == '10':
