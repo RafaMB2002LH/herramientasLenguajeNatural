@@ -12,8 +12,8 @@ import texto_a_voz.tts as tts
 if __name__=='__main__':
     #Menu
     while True:
-        print('Elija la herramienta que quiere utilizar:\n- 1 --> Detector de idioma de una web\n- 2 --> Eliminador de signos de un texto\n- 3 --> Eliminador de "stopwords" de un texto\n- 4 --> Lematizacion\n- 5 --> Stemming\n- 6 --> Tokenizacion\n- 7 --> Analisis lexico\n- 8 --> Analisis sintactico\n- 9 --> Analisis semantico\n- 10 -> Texto a voz\n- 0 --> Salir')
-        opc = input('Escriba la opcion de programa que quiere utilizar: ')
+        print('Elija la herramienta que quiere utilizar:\n- 0 --> Salir\n- 1 --> Detector de idioma de una web\n- 2 --> Eliminador de signos de un texto\n- 3 --> Eliminador de "stopwords" de un texto\n- 4 --> Lematizacion\n- 5 --> Stemming\n- 6 --> Tokenizacion\n- 7 --> Analisis lexico\n- 8 --> Analisis sintactico\n- 9 --> Analisis semantico\n- 10 -> Texto a voz')
+        opc = input('Escriba la opcion de herramienta que quiere utilizar: ')
         print('\n-------------------------------------------------')
 
         if opc =='0':
@@ -39,6 +39,6 @@ if __name__=='__main__':
         elif opc == '10':
             tts.muestra()
         else:
-            print('Opcion no valida, escriba una opcion de programa valida')
+            print('Opcion no valida, escriba una opcion de herramienta valida')
 
     

@@ -10,7 +10,7 @@ def lemmatize_sentence(sentence):
     return lemmatized_sentence
 
 def muestra():
-    print('Programa que lematiza una oracion EN INGLES\n-------------------------------------------------')
+    print('Programa que lematiza una oracion (EN INGLES)\n-------------------------------------------------')
     while True:
         
         sentence = input("Introduzca la oracion que desea lematizar (0 para volver al menu):\n")
